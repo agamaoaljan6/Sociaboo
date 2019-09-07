@@ -18,7 +18,7 @@ html {
     background: url(/images/homepage.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
-    min-height: 77vh;
+    min-height: 73vh;
 }
 
 #home-section .dark-overlay {
@@ -26,7 +26,7 @@ html {
     top: 0; 
     left: 0; 
     width: 100%; 
-    min-height: 77vh; 
+    min-height: 73vh; 
     background: rgba(0, 0, 0, 0.7);
 }
 
