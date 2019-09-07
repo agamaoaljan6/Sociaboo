@@ -5,6 +5,10 @@ body {
 }
 /* navbar */
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     border-bottom: #008ed6 3px solid;
     opacity: 0.8;
@@ -14,7 +18,7 @@ body {
     background: url(/images/homepage.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 77vh;
 }
 
 #home-section .dark-overlay {
@@ -22,21 +26,31 @@ body {
     top: 0; 
     left: 0; 
     width: 100%; 
-    min-height: 100vh; 
+    min-height: 77vh; 
     background: rgba(0, 0, 0, 0.7);
 }
 
 #home-section .home-inner {
-    padding-top: 235px; 
+    padding-top: 200px; 
 }
 
 #home-section .card-form {
+    margin-top: 1.5em;
     opacity: 0.8;
 }
 
-#home-section .fa {
+#home-section .fa,
+#new-section .fa {
     color: #008ed6;
     background: #fff; 
     padding: 5px;
     border-radius: 5px; 
+}
+
+#search-section .fa,
+#share-section .fa {
+    background: #333; 
+    color: #fff; 
+    padding: 5px; 
+    border-radius: 5px;
 }
